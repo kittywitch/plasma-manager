@@ -67,7 +67,7 @@ module Rc2Nix
     # in configuration files.
     GROUP_BLOCK_LIST = [
 #      /^(ConfigDialog|FileDialogSize|ViewPropertiesDialog|KPropertiesDialog)$/,
-#      /^\$Version$/,
+      /^\$Version$/,
 #      /^ColorEffects:/,
 #      /^Colors:/,
 #      /^DoNotDisturb$/,
